@@ -1,0 +1,202 @@
+/*
+pagina principal
+*/
+#fondo{
+    background-image: url("./imagenes/montañas2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center bottom;
+    background-size: 100% 300px ;
+    
+}
+
+img.mandog {width: 200px; height: 250px;margin-left: 16%;}
+
+#text1{
+    margin-left:10%; 
+    padding-top: 2%;
+    color:white
+}
+
+#botones{
+    padding-left: 2%;
+}
+
+#mbuton{
+    width: 15%; 
+    color: white; 
+    background-color: #FF74F5;
+    border: #FF74F5;
+    margin-left: 2%;
+}
+
+#text2{
+    color: white; 
+    margin: auto; 
+    height: 300px;
+    padding-top: 2%;
+}
+
+
+#motro1{
+    margin-top: 1%;
+}
+
+#motro2{
+    margin-left: 3%;
+}
+
+#motro3{
+    padding-top: 2%;
+}
+
+#motro4{
+    padding-top: 1%;
+}
+
+#motro5{
+    padding-top: 44px;
+}
+
+#motro6{
+    padding-top: 3%;
+}
+
+#mcaja{
+    color: white;
+    margin-top: 3%; 
+    padding-top: 3%;
+}
+
+#mcaja2{
+    color: white; 
+    background-color: #FF74F5;
+}
+
+#mcaja3{
+    display:grid; 
+    place-items:center
+}
+
+#mboton5{
+    margin-right: 30%;
+}
+
+img.resize {width: 55px; height: 30px;}
+
+img.listaF {width: 80px; height: 40px; margin-top: 10px;}
+
+/*
+Barrra de navegacion 
+*/
+#barraelemnt{
+    padding-left: 30%;
+}
+
+#barraelemnt_g{
+    padding-left: 8%;
+    padding-bottom: 36%;
+}
+
+#icono_g{
+    padding-bottom: 20%;
+}
+
+#barra{
+    color: white;
+    padding-top: 9px;
+}
+
+#textos{
+    padding-left: 50px;
+}
+
+#iconos{
+    padding-top: 14px;
+    padding-left: 39%;
+}
+
+#navega{
+    color: white;
+}
+
+/*
+Pantalla de lista de objetos de compras
+*/
+#filaCompra{
+    margin-top: 8%; 
+    margin-left: 20%;
+    color: white;
+    margin-right: 20%;
+}
+
+#carritoCompra{
+    width: 50%; 
+    color: white; 
+    background-color: #e748ea; 
+    margin-left: 56%;
+}
+
+#componenteLista{
+    background-color:white;
+    color: black; 
+    margin-top: 1%; 
+    margin-left: 0%;
+    height: 60px; 
+    border-radius: 3px;
+}
+
+#imagenLista{
+    width: 80px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+/*
+Registro
+*/
+
+#primerh1{
+    margin-top: 3%;
+    color: white;
+}
+#campos{
+    margin-top: 5%; 
+    background-color: #3f2d68;
+}
+
+#caja0{
+    margin-top: 3%; 
+    background-color: #3f2d68;
+}
+
+#registrarse{
+    width: 100%; 
+    margin-top: 5%; 
+    margin-bottom: 5%;
+}
+
+@media screen and (max-width: 1300px){
+    #barra{
+        color: red;
+        padding-top: 9px;
+    }
+    #iconos{
+        padding-top: 10px;
+        padding-left: 10%;
+    }
+    
+    #textos{
+        padding-right: 1px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    #barra{
+        color: red;
+        padding-top: 9px;
+    }
+
+    
+}
+
