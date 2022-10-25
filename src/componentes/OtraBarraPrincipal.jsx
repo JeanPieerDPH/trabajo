@@ -3,6 +3,9 @@ import mandog from "./imagenes/mando_g.png"
 import lupa from "./imagenes/lupa.png"
 import icono from "./imagenes/icono_persona.png"
 import carrito from "./imagenes/carrito_compras.png"
+import face from './imagenes/face.png';
+import twit from './imagenes/twiter.png';
+import inst from './imagenes/insta.png';
 
 const OtraBarraPrincipal = () =>{
     return <div className="container-fluid" id="fondo">
@@ -54,7 +57,65 @@ const OtraBarraPrincipal = () =>{
                     <button type="button" className="btn btn-light" id='mbuton'><h9 id='mboton5'>Build for begginers</h9></button>
                     <button type="button" className="btn btn-light" id='mbuton'><h9 id='mboton5'>Advanced building</h9></button>
                 </div>
-        
+                <div id="caja">
+                    <div className="row">
+                        <div className="col-6" id="caja_text">
+                            <h4><b>Sign up to our newsletter for the latest PC news.</b></h4>
+                        </div>
+                        <div className="col-2">
+                            Build Your PC
+                        </div>
+                        <div className="col-2">
+                            Good.
+                        </div>
+                        <div className="col-2">
+                            Terms & Conditions
+                        </div>
+                    </div>
+                    <div className="row" id="sub_caja">
+                        <div className="col-6">
+                            <span></span>
+                        </div>
+                        <div className="col-2">
+                            Why redux
+                        </div>
+                        <div className="col-2">
+                            Better.
+                        </div>
+                        <div className="col-2">
+                            Privacy Policy
+                        </div>  
+                    </div>
+                    <div className="row" id="sub_caja2">
+                        <div className="col-6">
+                            <div className="row">
+                                <div className="col">
+                                    <input className="form-control" id="correo" type="email" placeholder="Email"/>
+                                </div>
+                                <div className="col">
+                                    <button type="button" className="btn btn-light" id='suscribirse'>SUBSCRIBE</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-2">
+                            Support
+                        </div>
+                        <div className="col-2">
+                            Best.
+                        </div>
+                        <div className="col-2">
+                            Refund Policy
+                        </div>  
+                    </div>
+                </div>
+                <div id="iconos_sociales">
+                    <img className="resize" src={face}/>
+                    <img className="resize" src={twit}/>
+                    <img className="resize" src={inst} />
+                </div>
+                <div id="final_caja">
+                    Copyright © 2022 Build Redux. All Rights Reserved.
+                </div>
     </div>
 }
 

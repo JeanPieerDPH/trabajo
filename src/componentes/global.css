@@ -6,7 +6,7 @@ pagina principal
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center bottom;
-    background-size: 100% 300px ;
+    background-size: 100% 37% ;
     
 }
 
@@ -32,6 +32,43 @@ img.mandog {width: 200px; height: 250px;margin-left: 16%;}
 
 #mboton5{
     margin-right: 30%;
+}
+
+#caja{
+    margin-top: 5%;
+    color: white;
+}
+
+#caja_text{
+    font-family: arial;
+}
+
+#sub_caja{
+    margin-top: 1%;
+}
+
+#sub_caja2{
+    margin-top: 2%;
+}
+
+#correo{
+    background-color: transparent;
+}
+
+#suscribirse{
+        color: white; 
+        background-color: #FF74F5;
+}
+
+#iconos_sociales{
+    margin-top: 1%;
+}
+
+#final_caja{
+    display: grid;
+    place-content: center;
+    color: white;
+    margin-top: 47px;
 }
 
 img.resize {width: 55px; height: 30px;}
@@ -141,6 +178,14 @@ Registro
     #textos{
         padding-right: 1px;
     }
+    #fondo{
+        background-image: url("./imagenes/montañas2.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center bottom;
+        background-size: 100% 50% ;
+        
+    }
 }
 
 @media screen and (max-width: 480px){
@@ -148,7 +193,14 @@ Registro
         color: red;
         padding-top: 9px;
     }
-
+    #fondo{
+        background-image: url("./imagenes/montañas2.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center bottom;
+        background-size: 100% 40% ;
+        
+    }
     
 }
 
