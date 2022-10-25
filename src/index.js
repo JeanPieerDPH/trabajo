@@ -9,7 +9,7 @@ import OtraBarra from './componentes/OtraBarra';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <OtraBarraPrincipal/>
+    <OtraBarra/>
   </React.StrictMode>
 );
 
