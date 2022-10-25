@@ -165,42 +165,4 @@ Registro
     margin-bottom: 5%;
 }
 
-@media screen and (max-width: 1300px){
-    #barra{
-        color: red;
-        padding-top: 9px;
-    }
-    #iconos{
-        padding-top: 10px;
-        padding-left: 10%;
-    }
-    
-    #textos{
-        padding-right: 1px;
-    }
-    #fondo{
-        background-image: url("./imagenes/montañas2.jpg");
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center bottom;
-        background-size: 100% 50% ;
-        
-    }
-}
-
-@media screen and (max-width: 480px){
-    #barra{
-        color: red;
-        padding-top: 9px;
-    }
-    #fondo{
-        background-image: url("./imagenes/montañas2.jpg");
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center bottom;
-        background-size: 100% 40% ;
-        
-    }
-    
-}
 

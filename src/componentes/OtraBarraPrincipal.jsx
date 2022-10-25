@@ -6,6 +6,7 @@ import carrito from "./imagenes/carrito_compras.png"
 import face from './imagenes/face.png';
 import twit from './imagenes/twiter.png';
 import inst from './imagenes/insta.png';
+//@media screen and (max-width: 1300px){} en css
 
 const OtraBarraPrincipal = () =>{
     return <div className="container-fluid" id="fondo">
