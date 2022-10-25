@@ -5,7 +5,7 @@ import icono from "./imagenes/icono_persona.png"
 import carrito from "./imagenes/carrito_compras.png"
 
 const OtraBarraPrincipal = () =>{
-    return <div className="container-fluid" >
+    return <div className="container-fluid" id="fondo">
     
                 <nav className="navbar navbar-expand-lg navbar-dark bg-#383c4c">
                     <div className="container-fluid">

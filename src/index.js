@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import OtraBarraPrincipal from './componentes/OtraBarraPrincipal'
 import reportWebVitals from './reportWebVitals';
+import OtraBarra from './componentes/OtraBarra';
+import MainPage from './componentes/MainPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
